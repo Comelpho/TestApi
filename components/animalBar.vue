@@ -1,6 +1,6 @@
 <template lang="pug">
     .toolbar
-        v-card-subtitle Выберите колличество фактов
+        v-card-subtitle Выберите количество фактов
         v-radio-group( max=1, v-model="activeRadio" column=false, row=true)
             v-radio(@change='changeBar(item.value)' :label='item.lable', :value='item.value', v-for='(item, index) in categoryAnimals' :key='index')
 </template>

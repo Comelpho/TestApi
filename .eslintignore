@@ -1,6 +1,0 @@
-# ignore build
-build
-dist
-.nuxt
-nuxt
-.nuxt-storybook
